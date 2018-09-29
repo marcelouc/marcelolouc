@@ -1,0 +1,58 @@
+/*Color pallet*/
+/*
+# 1241B2 dark
+# F22E04
+# 004BFF base
+# EAF7D3
+# 9DA393 */
+html {
+  font-family: 'Expletus Sans', cursive;
+}
+.container{
+  background: #5433FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 130vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.content{
+  background-color: white;
+  max-width: 960px;
+  max-height: 900px; 
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+}
+.table{
+  width:100%;
+  border-spacing:0;
+ }
+.table th, 
+.table td {
+  padding: 1em;
+  text-align: center;
+}
+.table tr:nth-child(even){
+   background-color:#ce0219;
+}
+.fa-futbol{
+  color:yellow;
+}
+.inline{
+  display:inline-block;
+}
+.center{
+  text-align: center;
+}
+.underline{
+  border-bottom:solid 5px #ce0219;
+  padding-bottom: 15px;
+}
+.position{
+   background-color:#ce0219;
+   padding:10 px;
+   margin-left: 5px;
+   border-radius: 4px;
+}
